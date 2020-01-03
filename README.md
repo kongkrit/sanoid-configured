@@ -6,3 +6,5 @@ configured sanoid (https://github.com/jimsalterjrs/sanoid), ready to apt install
 * become root `sudo -i`
 * `cd sanoid`
 * `apt install --yes ../sanoid_*_all.deb`
+* add `/etc/sanoid/sanoid.conf` - tweak as needed
+* `sudo contab -e`  and add  `* * * * * /usr/sbin/sanoid --cron`
